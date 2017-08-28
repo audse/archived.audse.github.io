@@ -39,6 +39,11 @@
   flex-wrap: nowrap;
 }
 
+.flex-tool {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .flex-item {
   box-sizing: border-box;
   flex-grow: 1;
