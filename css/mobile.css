@@ -19,4 +19,17 @@
   .content-small {
     width: 80vw;
   }
+
+  #contact {
+    padding-bottom: 75px;
+  }
+
+  .flex-tool {
+    flex-wrap: wrap;
+  }
+  
+  .tool {
+    padding: 5px;
+  }
+
 }
