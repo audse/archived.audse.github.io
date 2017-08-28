@@ -12,6 +12,10 @@
     font-size: 3em;
   }
 
+  #home h2 {
+    top: 75vh;
+  }
+
   #home::after {
     position: absolute;
     content: "";
@@ -25,7 +29,7 @@
   }
 
   #contact {
-    padding-bottom: 75px;
+    padding-bottom: 50px;
   }
 
   .flex-tool {
@@ -34,6 +38,10 @@
 
   .tool {
     padding: 5px;
+  }
+
+  #about {
+    padding-bottom: 150px;
   }
 
 }
