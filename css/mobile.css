@@ -1,0 +1,9 @@
+@media only screen and (max-width: 500px) {
+  #home h1 {
+    font-size: 3em;
+  }
+
+  .content-small {
+    width: 80vw;
+  }
+}
