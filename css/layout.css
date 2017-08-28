@@ -1,0 +1,189 @@
+/* NAVIGATION */
+
+#nav {
+  box-sizing: border-box;
+  height: 60px;
+  padding: 0 20px;
+  width: 100vw;
+}
+
+#nav a {
+  color: rgb(236, 51, 134);
+  line-height: 60px;
+  mix-blend-mode: screen;
+  padding: 0 0 0 20px;
+}
+
+#nav a:hover {
+  color: rgb(157, 25, 84);
+}
+
+#nav a.brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 0;
+  text-transform: lowercase;
+}
+
+#nav a.brand:hover {
+  color: rgb(236, 51, 134);
+}
+
+#nav .right {
+  float: right;
+}
+
+#home {
+  background-color: rgb(51, 48, 196);
+  background-image: url('../img/mac2.jpg');
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+#home::after {
+  position: absolute;
+  content: "";
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-image: linear-gradient(183deg, rgba(255, 255, 255, 0) 90%, rgb(244, 115, 225) 90%);
+  z-index: -100;
+}
+
+#home h1 {
+  color: rgb(236, 51, 134);
+  display: block;
+  mix-blend-mode: screen;
+  position: absolute;
+  top: 65vh;
+  width: 100%;
+  text-align: center;
+}
+
+#home h2.caption {
+  color: white;
+  display: block;
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 78vh;
+  width: 100%;
+  text-align: center;
+}
+
+#about {
+  background-color: rgb(244, 115, 225);
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+#about::after {
+  position: absolute;
+  content: "";
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-image: linear-gradient(183deg, rgba(255, 255, 255, 0) 90%, #18178b 90%);
+  z-index: -100;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80vw;
+  z-index: 100;
+}
+
+.content-small {
+  margin: 0 auto;
+  padding: 20px;
+  width: 60vw;
+  z-index: 100;
+}
+
+#about h2 {
+  /*color: white;*/
+  font-size: 3em;
+  text-transform: lowercase;
+}
+
+#projects-head {
+  background-blend-mode: overlay;
+  background-color: #18178b;
+  background-image: url('../img/pro.png');
+  background-size: cover;
+  box-sizing: border-box;
+  height: 30vh;
+  padding-bottom: 100px;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+#projects-head::after {
+  position: absolute;
+  content: "";
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-image: linear-gradient(183deg, rgba(255, 255, 255, 0) 70%, #1c33e0 70%);
+  z-index: -100;
+}
+
+#projects-head h2 {
+  color: rgb(236, 51, 134);
+  display: block;
+  font-size: 3em;
+  mix-blend-mode: screen;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: lowercase;
+  width: 100%;
+}
+
+#projects {
+  background-color: #1c33e0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-bottom: 150px;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+#projects::after {
+  position: absolute;
+  content: "";
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-image: linear-gradient(183deg, rgba(255, 255, 255, 0) 95%, rgb(244, 115, 225) 95%);
+  z-index: -100;
+}
+
+.project-card-img {
+  background-blend-mode: overlay;
+  background-color: rgb(236, 51, 134);
+  background-size: cover;
+  min-width: 30vw;
+  max-width: 30vw;
+}
+
+#contact {
+  background-color: rgb(244, 115, 225);
+  box-sizing: border-box;
+  min-height: 50vh;
+  padding-bottom: 100px;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+#contact h2 {
+  font-size: 3em;
+  text-transform: lowercase;
+}
