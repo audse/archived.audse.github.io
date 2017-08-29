@@ -12,8 +12,8 @@
     font-size: 3em;
   }
 
-  #home h2 {
-    top: 75vh;
+  #home h2.caption {
+    top: 70vh;
   }
 
   #home::after {
