@@ -29,6 +29,7 @@
   }
 
   #contact {
+    min-height: 40vh;
     padding-bottom: 50px;
   }
 
@@ -42,6 +43,10 @@
 
   #about {
     padding-bottom: 150px;
+  }
+
+  .remodal {
+    width: 80vw;
   }
 
 }
